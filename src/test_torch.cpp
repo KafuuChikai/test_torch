@@ -1,12 +1,18 @@
 #include "test_torch.h"
 
+namespace fs = std::filesystem;
+
 int main(int argc, char **argv){
     ros::init(argc, argv, "test_torch");
     ros::NodeHandle nh;
     ros::Rate rate(1);
 
     // Load the PyTorch model
-    std::string model_path = "/home/wx/catkin_ws/src/test_torch/Model/test_model.pt";
+    fs::path current_path = fs::current_path();
+    std::string model_relative_path = "src/test_torch/Model/test_model.pt";
+    fs::path model_absolute_path = current_path / model_relative_path;
+
+    std::string model_path = model_absolute_path.string();
     torch::jit::script::Module RL_model = torch::jit::load(model_path);
     std::cout << "RL module Loaded!\n" << std::endl;
 
