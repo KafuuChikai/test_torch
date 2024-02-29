@@ -27,7 +27,7 @@ catkin_package(
 
 ## Specify additional locations of header files
 include_directories(
-  # include
+  include
   ${catkin_INCLUDE_DIRS}
   ${EIGEN3_INCLUDE_DIRS}
 )
