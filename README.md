@@ -3,6 +3,10 @@
 
 This is a generic **ROS package** designed to test the functionality of **LibTorch**. [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
 
+Tested **Libtorch** version: 
+
+![libtorch-version](images/libtorch-version.png)
+
 Please download **cxx11 ABI** version, otherwise it may cause **ROS library error**.
 
 **Reference:**
