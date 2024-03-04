@@ -5,7 +5,7 @@ This is a generic **ROS package** designed to test the functionality of **LibTor
 
 Tested **Libtorch** version: 
 
-![libtorch-version](images/libtorch-version.png)
+![libtorch-version](images/libtorch-version.jpeg)
 
 Please download **cxx11 ABI** version, otherwise it may cause **ROS library error**.
 
