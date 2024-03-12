@@ -77,3 +77,17 @@ Then, in another terminal, run ROS node.
 ```ros
 rosrun test_torch test_torch
 ```
+
+## 3. raspberry pi
+
+- Tested **Libtorch** version:
+
+[		https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.6.0%2Bcpu.zip](https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.6.0%2Bcpu.zip)
+
+Do not use **v2.2.x**. Just **download** and there is no need to make.
+
+- Tested **CMake** version:
+
+​		**cmake-3.18.5.tar.gz**
+
+​		Install is the same as **Ubuntu**!
