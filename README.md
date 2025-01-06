@@ -82,12 +82,12 @@ rosrun test_torch test_torch
 
 - Tested **Libtorch** version:
 
-[		https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.6.0%2Bcpu.zip](https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.6.0%2Bcpu.zip)
+   [https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.6.0%2Bcpu.zip](https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.6.0%2Bcpu.zip)
 
-Do not use **v2.2.x**. Just **download** and there is no need to make.
+   Do not use **v2.2.x**. Just **download** and there is no need to make.
 
 - Tested **CMake** version:
 
-​		**cmake-3.18.5.tar.gz**
+   **cmake-3.18.5.tar.gz**
 
-​		Install is the same as **Ubuntu**!
+   Install is the same as **Ubuntu**!
