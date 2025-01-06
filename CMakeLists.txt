@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 11)
 project(test_torch)
 
 # set package directories
-set(Torch_DIR "/home/zhoujin/libtorch/share/cmake/Torch")
+set(Torch_DIR "$ENV{HOME}/libtorch/share/cmake/Torch")
 
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED COMPONENTS
